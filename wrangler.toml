@@ -1,0 +1,13 @@
+name = "api-kuecrm"
+
+routes = [
+    { pattern = "api.kuecrm.dev", custom_domain = true }
+]
+
+compatibility_flags = ["nodejs_compat"]
+
+compatibility_date = "2024-09-23"
+
+# Production environment configuration
+[env.production]
+workers_dev = true
