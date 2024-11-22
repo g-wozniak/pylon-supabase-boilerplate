@@ -1,7 +1,7 @@
-name = "api-kuecrm"
+name = "your-app"
 
 routes = [
-    { pattern = "api.kuecrm.dev", custom_domain = true }
+    { pattern = "yourhostname.dev", custom_domain = true }
 ]
 
 compatibility_flags = ["nodejs_compat"]
